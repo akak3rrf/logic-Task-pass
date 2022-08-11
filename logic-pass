@@ -5,8 +5,11 @@ s1=s.replace("$","",)
 print (s1)
 #Output:Hello Python3$
 
+#####################################
+
 #Q2/Write a program to find all prime numbers up to a given range
 #of numbers?
+
 
 lower_value = int(input("Please Enter the Lowest Range Value: "))
 upper_value = int(input("Please Enter the Upper Range Value: "))
@@ -19,6 +22,8 @@ for number in range(lower_value, upper_value + 1):
                 break
         else:
             print(number)
+
+#########################################
 
 #Q3/write a function that count how many the given character repeated
 #in a given string?
@@ -35,3 +40,4 @@ for i in range(0, len(string)):
 
     if (count > 1 and string[i] != '0'):
         print(string[i], " - ", count);
+
